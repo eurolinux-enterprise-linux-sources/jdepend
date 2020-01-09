@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - jdepend 
+# ELS - Enterprise Linux/EuroLinux Sources - jdepend
+ 
 ## Usage:
   Checkout branch or tag.
