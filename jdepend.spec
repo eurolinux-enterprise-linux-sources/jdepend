@@ -30,7 +30,7 @@
 
 Name:           jdepend
 Version:        2.9.1
-Release:        10%{?dist}
+Release:        9%{?dist}
 Epoch:          0
 Summary:        Java Design Quality Metrics
 License:        BSD
@@ -113,9 +113,6 @@ install -pm 644 %{SOURCE1} $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-%{name}.pom
 %{_datadir}/%{name}
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 02.9.1-10
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:2.9.1-9
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
